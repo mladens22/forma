@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.form {
+  background-color: #f8f8ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+}
+
+.firstAndLastName, .phoneAndAddress, .houseAndPostNumber, .placeAndEmail {
+  display: flex;
+  gap: 10px;
+}
+
+
+.linearGradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  width: 450px;
+  height: 590px;
+  border-radius: 10px;
+
+}
+
+.form-title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.container {
+  position: relative;
+}
+
+.container input,
+.form button {
+  border: 1px solid #ced0d4;
+  margin: 8px 0;
+}
+
+.container input {
+  background-color: #ffffff;
+  padding: 16px;
+  padding-right: 41px;
+  font-size: 14px;
+  border-radius: 7px;
+  line-height: 19px;
+  width: 170px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.container span {
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 16px;
+}
+
+.btn {
+  padding: 14px 20px;
+  background-color: #008fff;
+  line-height: 19px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 7px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0072cc;
+  transition: .4s ease-in-out;
+}

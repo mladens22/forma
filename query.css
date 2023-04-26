@@ -1,0 +1,41 @@
+@media (max-width: 476px) {
+    .linearGradient{
+        width: 400px;
+        height: 560px;
+      }
+
+      .container input{
+        width: 150px;
+        line-height: 18px;
+        font-size: 12px;
+      }
+}
+
+@media (max-width: 405px) {
+    .linearGradient{
+        width: 355px;
+        height: 520px;
+      }
+
+      .container input{
+        width: 130px;
+        height: 40px;
+        line-height: 17px;
+        font-size: 10px;
+
+      }
+}
+
+@media (max-width: 370px) {
+    .linearGradient{
+        width: 320px;
+        height: 455px;
+      }
+
+      .container input{
+        width: 115px;
+        height: 30px;
+        line-height: 17px;
+        font-size: 10px;
+      }
+}
